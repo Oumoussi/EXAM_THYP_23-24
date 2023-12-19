@@ -16,37 +16,37 @@ ex:Athlete a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-ex:Sport a rdfs:Class ;
-    rdfs:label "Sport" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-    
-ex:Result a rdfs:Class ;
-    rdfs:label "Result" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
 ex:Event a rdfs:Class ;
     rdfs:label "Event" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .     
 
-ex:participatesId a rdf:Property ;
-    rdfs:label "participatesId" ;
+ex:AthleteID a rdf:Property ;
+    rdfs:label "AthleteID" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-ex:belongsTo a rdf:Property ;
-    rdfs:label "belongsTo" ;
+ex:AthleteFirstName a rdf:Property ;
+    rdfs:label "AthleteFirstName" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+    
+ex:AthleteLastName a rdf:Property ;
+    rdfs:label "AthleteLastName" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+    
+ex:EventID a rdf:Property ;
+    rdfs:label "Event" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-ex:hasResult a rdf:Property ;
-    rdfs:label "hasResult " ;
+ex:EventName a rdf:Property ;
+    rdfs:label "EventName" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-
-ex:hasMedal a rdf:Property ;
-    rdfs:label "hasMedal" ;
+    
+ex:EventDate a rdf:Property ;
+    rdfs:label "EventDate" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

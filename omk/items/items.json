@@ -1,0 +1,475 @@
+[
+    {
+        "@context": "http://localhost/omeka_s/api-context",
+        "@id": "http://localhost/omeka_s/api/items/4",
+        "@type": "o:Item",
+        "o:id": 4,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost/omeka_s/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http://localhost/omeka_s/api/resource_templates/2",
+            "o:id": 2
+        },
+        "o:thumbnail": {
+            "@id": "http://localhost/omeka_s/api/assets/5",
+            "o:id": 5
+        },
+        "o:title": "Thriller",
+        "thumbnail_display_urls": {
+            "large": "http://localhost/omeka_s/files/asset/c7e2865c141dd7cb7cd5c36cbda86081ef4ef8f4.jpg",
+            "medium": "http://localhost/omeka_s/files/asset/c7e2865c141dd7cb7cd5c36cbda86081ef4ef8f4.jpg",
+            "square": "http://localhost/omeka_s/files/asset/c7e2865c141dd7cb7cd5c36cbda86081ef4ef8f4.jpg"
+        },
+        "o:created": {
+            "@value": "2023-11-05T10:43:27+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-11-05T10:43:27+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Thriller"
+            }
+        ],
+        "dcterms:description": [
+            {
+                "type": "literal",
+                "property_id": 4,
+                "property_label": "Description",
+                "is_public": true,
+                "@value": "L'album emblématique de Michael Jackson, célèbre pour des chansons telles que \"Thriller\" et \"Billie Jean\", qui a redéfini la musique pop et la danse."
+            }
+        ],
+        "dcterms:publisher": [
+            {
+                "type": "literal",
+                "property_id": 5,
+                "property_label": "Publisher",
+                "is_public": true,
+                "@value": "Epic Records"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost/omeka_s/api-context",
+        "@id": "http://localhost/omeka_s/api/items/5",
+        "@type": "o:Item",
+        "o:id": 5,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost/omeka_s/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http://localhost/omeka_s/api/resource_templates/2",
+            "o:id": 2
+        },
+        "o:thumbnail": {
+            "@id": "http://localhost/omeka_s/api/assets/6",
+            "o:id": 6
+        },
+        "o:title": "La Joconde",
+        "thumbnail_display_urls": {
+            "large": "http://localhost/omeka_s/files/asset/a752d491f097af070831dfe1bc51076c3596f46b.jpg",
+            "medium": "http://localhost/omeka_s/files/asset/a752d491f097af070831dfe1bc51076c3596f46b.jpg",
+            "square": "http://localhost/omeka_s/files/asset/a752d491f097af070831dfe1bc51076c3596f46b.jpg"
+        },
+        "o:created": {
+            "@value": "2023-11-05T10:44:15+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-11-05T10:44:15+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "La Joconde"
+            }
+        ],
+        "dcterms:description": [
+            {
+                "type": "literal",
+                "property_id": 4,
+                "property_label": "Description",
+                "is_public": true,
+                "@value": "Un portrait emblématique de Leonardo da Vinci, représentant Lisa Gherardini, qui est devenu un symbole de l'art de la Renaissance italienne."
+            }
+        ],
+        "dcterms:publisher": [
+            {
+                "type": "literal",
+                "property_id": 5,
+                "property_label": "Publisher",
+                "is_public": true,
+                "@value": "Musée du Louvre"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost/omeka_s/api-context",
+        "@id": "http://localhost/omeka_s/api/items/6",
+        "@type": "o:Item",
+        "o:id": 6,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost/omeka_s/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http://localhost/omeka_s/api/resource_templates/2",
+            "o:id": 2
+        },
+        "o:thumbnail": {
+            "@id": "http://localhost/omeka_s/api/assets/7",
+            "o:id": 7
+        },
+        "o:title": "Planète Terre",
+        "thumbnail_display_urls": {
+            "large": "http://localhost/omeka_s/files/asset/5740940fcf2a0de15940d0d2511380d54c2eb96e.jpg",
+            "medium": "http://localhost/omeka_s/files/asset/5740940fcf2a0de15940d0d2511380d54c2eb96e.jpg",
+            "square": "http://localhost/omeka_s/files/asset/5740940fcf2a0de15940d0d2511380d54c2eb96e.jpg"
+        },
+        "o:created": {
+            "@value": "2023-11-05T10:45:05+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-11-05T10:45:05+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Planète Terre"
+            }
+        ],
+        "dcterms:description": [
+            {
+                "type": "literal",
+                "property_id": 4,
+                "property_label": "Description",
+                "is_public": true,
+                "@value": "Une série documentaire de la BBC qui explore la diversité de la vie sur Terre, en mettant en lumière des paysages magnifiques et des créatures fascinantes."
+            }
+        ],
+        "dcterms:publisher": [
+            {
+                "type": "literal",
+                "property_id": 5,
+                "property_label": "Publisher",
+                "is_public": true,
+                "@value": " BBC Worldwide"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost/omeka_s/api-context",
+        "@id": "http://localhost/omeka_s/api/items/7",
+        "@type": "o:Item",
+        "o:id": 7,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost/omeka_s/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http://localhost/omeka_s/api/resource_templates/8",
+            "o:id": 8
+        },
+        "o:thumbnail": {
+            "@id": "http://localhost/omeka_s/api/assets/10",
+            "o:id": 10
+        },
+        "o:title": "Lancer du javelot",
+        "thumbnail_display_urls": {
+            "large": "http://localhost/omeka_s/files/asset/6d9f6fa43218d694d1b8bc7ae592a0a4aba87060.jpg",
+            "medium": "http://localhost/omeka_s/files/asset/6d9f6fa43218d694d1b8bc7ae592a0a4aba87060.jpg",
+            "square": "http://localhost/omeka_s/files/asset/6d9f6fa43218d694d1b8bc7ae592a0a4aba87060.jpg"
+        },
+        "o:created": {
+            "@value": "2023-11-24T14:45:13+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:08:28+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": " Lancer du javelot"
+            }
+        ],
+        "dcterms:description": [
+            {
+                "type": "literal",
+                "property_id": 4,
+                "property_label": "Description",
+                "is_public": true,
+                "@value": "Le lancer du javelot est une épreuve emblématique des Jeux Olympiques, mettant en valeur la force, la technique et la précision des athlètes. Dans cette discipline."
+            }
+        ],
+        "ex:EventID": [
+            {
+                "type": "literal",
+                "property_id": 234,
+                "property_label": "Event",
+                "is_public": true,
+                "@value": "1"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost/omeka_s/api-context",
+        "@id": "http://localhost/omeka_s/api/items/11",
+        "@type": "o:Item",
+        "o:id": 11,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost/omeka_s/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http://localhost/omeka_s/api/resource_templates/6",
+            "o:id": 6
+        },
+        "o:thumbnail": {
+            "@id": "http://localhost/omeka_s/api/assets/8",
+            "o:id": 8
+        },
+        "o:title": "Oumoussi",
+        "thumbnail_display_urls": {
+            "large": "http://localhost/omeka_s/files/asset/7de90d4a706a86744d8b8bc2c27a45f959b3b661.jpg",
+            "medium": "http://localhost/omeka_s/files/asset/7de90d4a706a86744d8b8bc2c27a45f959b3b661.jpg",
+            "square": "http://localhost/omeka_s/files/asset/7de90d4a706a86744d8b8bc2c27a45f959b3b661.jpg"
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:04:08+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:06:25+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "foaf:firstName": [
+            {
+                "type": "literal",
+                "property_id": 139,
+                "property_label": "firstName",
+                "is_public": true,
+                "@value": "Oumoussi "
+            }
+        ],
+        "foaf:familyName": [
+            {
+                "type": "literal",
+                "property_id": 145,
+                "property_label": "familyName",
+                "is_public": true,
+                "@value": "Abderrahim"
+            }
+        ],
+        "ex:participatesId": [
+            {
+                "type": "literal",
+                "property_id": 227,
+                "property_label": "participatesId",
+                "is_public": true,
+                "@value": "1"
+            }
+        ],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Oumoussi"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost/omeka_s/api-context",
+        "@id": "http://localhost/omeka_s/api/items/12",
+        "@type": "o:Item",
+        "o:id": 12,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost/omeka_s/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http://localhost/omeka_s/api/resource_templates/6",
+            "o:id": 6
+        },
+        "o:thumbnail": {
+            "@id": "http://localhost/omeka_s/api/assets/9",
+            "o:id": 9
+        },
+        "o:title": "Kamal",
+        "thumbnail_display_urls": {
+            "large": "http://localhost/omeka_s/files/asset/dc02d36d2dcbaa1c474b87c989f9e9bc86aefdda.jpeg",
+            "medium": "http://localhost/omeka_s/files/asset/dc02d36d2dcbaa1c474b87c989f9e9bc86aefdda.jpeg",
+            "square": "http://localhost/omeka_s/files/asset/dc02d36d2dcbaa1c474b87c989f9e9bc86aefdda.jpeg"
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:06:02+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:06:02+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "foaf:firstName": [
+            {
+                "type": "literal",
+                "property_id": 139,
+                "property_label": "firstName",
+                "is_public": true,
+                "@value": "Kamal"
+            }
+        ],
+        "foaf:familyName": [
+            {
+                "type": "literal",
+                "property_id": 145,
+                "property_label": "familyName",
+                "is_public": true,
+                "@value": "Erraji"
+            }
+        ],
+        "ex:participatesId": [
+            {
+                "type": "literal",
+                "property_id": 227,
+                "property_label": "participatesId",
+                "is_public": true,
+                "@value": "2"
+            }
+        ],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Kamal"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost/omeka_s/api-context",
+        "@id": "http://localhost/omeka_s/api/items/13",
+        "@type": "o:Item",
+        "o:id": 13,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost/omeka_s/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": null,
+        "o:resource_template": {
+            "@id": "http://localhost/omeka_s/api/resource_templates/8",
+            "o:id": 8
+        },
+        "o:thumbnail": {
+            "@id": "http://localhost/omeka_s/api/assets/11",
+            "o:id": 11
+        },
+        "o:title": "Escalade sportive",
+        "thumbnail_display_urls": {
+            "large": "http://localhost/omeka_s/files/asset/edd8176ae9d9621c3be67cad344811d2e6ef0113.jpg",
+            "medium": "http://localhost/omeka_s/files/asset/edd8176ae9d9621c3be67cad344811d2e6ef0113.jpg",
+            "square": "http://localhost/omeka_s/files/asset/edd8176ae9d9621c3be67cad344811d2e6ef0113.jpg"
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:09:35+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:10:56+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Escalade sportive"
+            }
+        ],
+        "dcterms:description": [
+            {
+                "type": "literal",
+                "property_id": 4,
+                "property_label": "Description",
+                "is_public": true,
+                "@value": "L'escalade sportive est une discipline palpitante qui a été ajoutée aux Jeux Olympiques pour mettre en lumière la force, l'agilité et la mentalité des athlètes. Les compétiteurs s'affrontent sur des parois d'escalade complexes, combinant des éléments de vitesse."
+            }
+        ],
+        "ex:EventID": [
+            {
+                "type": "literal",
+                "property_id": 234,
+                "property_label": "Event",
+                "is_public": true,
+                "@value": "2"
+            }
+        ]
+    }
+]
