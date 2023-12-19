@@ -27,12 +27,18 @@ function showItems(itemsData) {
       itemDiv.className = 'item';
       itemDiv.innerHTML = `
         <p>Identifiant: ${itemId}</p>
-        <h2>${title}</h2>
-        <div class="image-container" >
-        ${mediaUrl ? `<img src="${mediaUrl}"  alt="${title}">` : ''}
+        <div class="article-container">
+            <h2 class="article-title">${title}</h2>
+            
+            <div class="image-container">
+            ${mediaUrl ? `<img class="article-image" src="${mediaUrl}" alt="${title}">` : ''}
+            </div>
+            
+            <p class="article-description">${description}</p>
+            
+            <hr class="article-divider">
         </div>
-        
-        <p>${description}</p>
+      
         <hr>
       `;
       itemsList.appendChild(itemDiv);
