@@ -9,7 +9,7 @@ h4 {
     color: #007bff;
 }
 
-.list_RT {
+.list_It {
     margin: 2%;
     background-color: #fff;
     padding: 20px;
@@ -46,4 +46,26 @@ button {
 
 i.bi-plus-square-dotted {
     color: orange;
+}
+
+.image-container {
+    text-align: center; 
+    margin-top: 10px; 
+}
+.navbar input {
+    color: white;
+    padding: 16px 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #ad84fa;
+}
+
+.image-container img {
+    width: 50%; 
+    
+    border-radius: 5px;
 }
